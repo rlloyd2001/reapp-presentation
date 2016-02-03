@@ -10,6 +10,10 @@ class Home extends React.Component {
 					<Button onTap={() => this.router().transitionTo('sub')}>
 						Go to sub view
 					</Button>
+
+					<Button onTap={() => this.router().transitionTo('nameEntry')}>
+						Enter name
+					</Button>
 				</View>
 
 				{this.props.child()}

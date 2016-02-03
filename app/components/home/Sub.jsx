@@ -1,6 +1,6 @@
 import { React, View, BackButton } from 'reapp-kit';
 
-export default class extends React.Component {
+export default class Sub extends React.Component {
   render() {
     const backButton =
       <BackButton onTap={() => window.history.back()} />
