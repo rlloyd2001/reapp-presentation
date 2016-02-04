@@ -14,6 +14,10 @@ class Home extends React.Component {
 					<Button onTap={() => this.router().transitionTo('nameEntry')}>
 						Enter name
 					</Button>
+
+					<Button onTap={() => this.router().transitionTo('lists')}>
+						Lists
+					</Button>
 				</View>
 
 				{this.props.child()}

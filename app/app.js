@@ -4,6 +4,7 @@ import { router, route } from 'reapp-kit';
 router(require,
   route('home', '/',
     route('sub'),
-    route('nameEntry')
+    route('nameEntry'),
+    route('lists')
   )
 );
